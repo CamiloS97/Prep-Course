@@ -148,7 +148,7 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
   if(numero !==1 && numero !==0){
-    for (1=2; i<numero; i++){
+    for (i=2; i<numero; i++){
       if(numero%1===0){
         return false;
       }return true;
@@ -179,7 +179,7 @@ function tablaDelSeis(){
 
   for (i=0; i<=10; i++){
     tabla.push(6*i)
-    return "6 * " + i + "= " + tabla[i]; 
+    return tabla[i]; 
   }
   
 }
@@ -202,7 +202,7 @@ function doWhile(numero) {
   do { 
     i = i +5;
   }
-   while(i<=40);
+   while(i<=45);
 }
 
 
